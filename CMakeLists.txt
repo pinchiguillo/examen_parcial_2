@@ -10,4 +10,8 @@ add_executable(examen_parcial_2
         Ejercicio2/Ejercicio2.h
         Ejercicio2/Ejercicio2.cpp
         Ejercicio3/Ejercicio3.h
-        Ejercicio3/Ejercicio3.cpp)
+        Ejercicio3/Ejercicio3.cpp
+        Ejercicio4/Ejercicio4.h
+        Ejercicio4/Ejercicio4.cpp
+        Ejercicio4/functions.h
+        Ejercicio4/functions.cpp)
