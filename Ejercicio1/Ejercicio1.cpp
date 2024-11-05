@@ -22,5 +22,4 @@ void ejercicio1() {
         cout << "El numero es negativo" << endl;
     }
 
-
 }
