@@ -3,12 +3,17 @@
 //
 
 #include <iostream>
+#include <locale>
+
+#include "Ejercicio1/Ejercicio1.h"
 
 using namespace std;
 
 int main() {
 
-    cout << "Hello, World!" << endl;
+    setlocale(LC_ALL, "es_ES.UTF-8");
+
+    ejercicio1();
 
     return 0;
 }
