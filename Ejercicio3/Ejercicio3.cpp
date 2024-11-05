@@ -13,11 +13,14 @@ void ejercicio3() {
 
     float notas[8];
 
+
+    // Llenar array con las notas
     for (int i = 0; i < 8; i++) {
         cout << "Introduce la nota del ejercicio" << i + 1 << ": ";
         cin >> notas[i];
     }
 
+    // Sumar notas
     float sum = 0;
     for (int i = 0; i < 8; i++) {
         sum += notas[i];
