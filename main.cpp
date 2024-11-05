@@ -16,10 +16,31 @@ int main() {
 
     setlocale(LC_ALL, "es_ES.UTF-8");
 
-    //ejercicio1();
-    //ejercicio2();
-    //ejercicio3();
-    ejercicio4();
+    while (true) {
+        cout << "Elija el ejercicio a ejecutar (1-4, 0 Terminar programa): ";
+        int option;
+        cin >> option;
+
+        switch (option) {
+            case 1:
+                ejercicio1();
+            break;
+            case 2:
+                ejercicio2();
+            break;
+            case 3:
+                ejercicio3();
+            break;
+            case 4:
+                ejercicio4();
+            break;
+            case 0:
+                return 0;
+            default:
+                cout << "Opción no válida" << endl;
+            break;
+        }
+    }
 
     return 0;
 }
